@@ -1,0 +1,44 @@
+{
+  "name": "blok",
+  "version": "0.0.1",
+  "description": "blog built with koa",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --debug app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamrun/blok.git"
+  },
+  "keywords": [
+    "blog",
+    "koa"
+  ],
+  "author": "teamrun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamrun/blok/issues"
+  },
+  "homepage": "https://github.com/teamrun/blok#readme",
+  "dependencies": {
+    "bookshelf": "^0.9.4",
+    "co": "^4.6.0",
+    "co-views": "^2.1.0",
+    "es6-promisify": "^4.0.0",
+    "formidable": "^1.0.17",
+    "jade": "^1.11.0",
+    "knex": "^0.10.0",
+    "koa": "^1.2.0",
+    "koa-better-body": "^2.0.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "lodash": "^4.11.1",
+    "minimist": "^1.2.0",
+    "mysql": "^2.10.2",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {
+    "request": "^2.72.0"
+  }
+}
